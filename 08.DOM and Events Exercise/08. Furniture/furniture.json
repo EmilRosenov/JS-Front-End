@@ -1,0 +1,17 @@
+[
+    {
+        "img":"https://content.cylindo.com/api/v2/4980/products/20628MODSOFA-MED/frames/3/20628MODSOFA-MED.JPG?background=FFFFFF&feature=COLOUR:905",
+        "name": "Sofa",
+        "price": "259",
+        "decFactor":"0.4"
+
+    },
+    {
+        "img":"https://www.stylespafurniture.com/wp-content/uploads/2020/03/Cove_3_Door_Wardrobe_1.jpg",
+        "name": "Wardrobe",
+        "price": "120",
+        "decFactor":"1.2"
+    }
+]
+
+
