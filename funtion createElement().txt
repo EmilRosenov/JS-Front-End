@@ -1,3 +1,9 @@
+// type = string
+// content = string (text content)
+// id = string
+// classes = array of strings
+// attributes = object
+
 function createElement(type, content, parentNode, id, classes, attributes) {
   const htmlElement = document.createElement(type);
   if (content && type !== "input") {
@@ -12,12 +18,14 @@ function createElement(type, content, parentNode, id, classes, attributes) {
   if (id) {
     htmlElement.id = id;
   }
+// ['list', 'item']
   if (classes) {
     htmlElement.classList.add(...classes);
   }
+// {src: 'link to image', href: 'link to site', type: 'checkbox' ... }
   if (attributes) {
     for (const key in attributes) {
-      htmlElement.setAttributes(key, attributes[key]);
+      htmlElement.setAttribute(key, attributes[key]);
     }
   }
   return htmlElement;
